@@ -1,0 +1,136 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/collection/buildings.json",
+  "@type": "sc:Collection",
+  "label": "buildings",
+  "manifests": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0001/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0001"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0002/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0002"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0003/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0003"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0004/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0004"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0005/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0005"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0006/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0006"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0007/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0007"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0008/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0008"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0011/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0011"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0012/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0012"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0013/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0013"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0014/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0014"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0015/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0015"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0016/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0016"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0018/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0018"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0019/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0019"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0020/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0020"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0021/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0021"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0022/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0022"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0023/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0023"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0024/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0024"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0025/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0025"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0026/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0026"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0027/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0027"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ec_0029/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ec_0029"
+    }
+  ]
+}

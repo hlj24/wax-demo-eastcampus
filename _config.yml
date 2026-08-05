@@ -17,11 +17,11 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'Wax'
-description:      'Minimal Exhibitions with Jekyll'
+title:            'Duke East Camps'
+description:      'Wax Demo - Minimal Exhibitions with Jekyll'
 url:              'https://minicomp.github.io'
-baseurl:          '/wax'
-copyright:        'Example copyright org, 2023'
+baseurl:          '/ec'
+copyright:        'Duke University Libraries, 2026'
 logo:             '/assets/logo.png'
 default_thumb:    '/assets/default.png'
 
@@ -59,13 +59,13 @@ kramdown:
 collections:
   exhibits:
     output: true
-  qatar: # name of collection
+  buildings: # name of collection
     output: true # makes sure pages are output as html files
     layout: 'qatar_item' # the layout for the pages to use
     metadata:
-      source: 'qatar.csv' # path to the metadata file within `_data`
+      source: 'buildings.csv' # path to the metadata file within `_data`
     images:
-      source: 'raw_images/qatar' # path to the directory of images within `_data`
+      source: 'raw_images/buildings' # path to the directory of images within `_data`
 
 # --------------------------------------------------------------
 # SEARCH INDEX SETTINGS
@@ -79,15 +79,15 @@ search:
   main:
     index: '/search/index.json' # file the index will get written to
     collections:
-      qatar:
-        content: false # whether or not to index page content
+      buildings:
+        content: true # whether or not to index page content
         fields: # the metadata fields to index
-          - artist
+          - creator
           - location
           - label
           - _date
-          - object_type
-          - current_location
+          - description
+          - type
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS
